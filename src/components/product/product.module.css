@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #1e40af;
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+.btn {
+  padding: 5px 8px;
+  color: #1e40af;
+  background-color: #eef2ff;
+  border: 1px solid #1e40af;
+  border-radius: 5px;
+}
+.remove {
+  color: rgb(247, 35, 35);
+  border: 1px solid rgb(243, 40, 40);
+}
+.inc {
+  background-color: #d3d9f3;
+}
+.quant {
+  background-color: #d3d9f3;
+  border-radius: 15px;
+  padding: 5px 10px;
+}

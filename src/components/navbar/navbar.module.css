@@ -1,0 +1,6 @@
+.nav {
+  background-color: #ddd;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}

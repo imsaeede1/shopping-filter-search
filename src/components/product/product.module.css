@@ -1,13 +1,18 @@
 .container {
-  width: 80%;
+  width: 23%;
   padding: 15px;
-  margin: auto;
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  border: 1px solid #1e40af;
-  background-color: aliceblue;
-  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+.productList {
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  width: 81.5%;
 }
 .btn {
   padding: 5px 8px;
@@ -27,4 +32,24 @@
   background-color: #d3d9f3;
   border-radius: 15px;
   padding: 5px 10px;
+}
+.size {
+  color: #a7a7a7;
+  font-size: 11px;
+  padding-top: 4px;
+}
+.titleText {
+  font-size: 12px;
+}
+.priceText {
+  font-size: 14px;
+  font-weight: 600;
+}
+.flextext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  align-items: flex-start;
+  height: 65px;
 }

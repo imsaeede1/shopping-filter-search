@@ -5,9 +5,10 @@ export const productsData = [
     title: "Sphynx Tie Dye Grey T-Shirt",
     quantity: 1,
     description: "Sphynx Tie Dye Grey",
-    availableSizes: ["X", "L", "XL", "XXL"],
+    availableSizes: ["X", " - ", "L", " - ", "XL", " - ", "XXL"],
     price: 10,
     isFreeShipping: true,
+    img: "../../../images/coat1.png",
   },
 
   {
@@ -16,9 +17,10 @@ export const productsData = [
     title: "Danger Knife Grey T-Shirt",
     quantity: 1,
     description: "Danger Knife Grey",
-    availableSizes: ["X", "M", "L"],
+    availableSizes: ["X", " - ", "M", " - ", "L"],
     price: 14.9,
     isFreeShipping: true,
+    img: "../../../images/coat2.png",
   },
 
   {
@@ -27,9 +29,10 @@ export const productsData = [
     title: "Sphynx Tie Dye Grey T-Shirt",
     quantity: 1,
     description: "Sphynx Tie Dye Grey",
-    availableSizes: ["X", "L", "XL", "XXL"],
+    availableSizes: ["X", " - ", "L", " - ", "XL", " - ", "XXL"],
     price: 10,
     isFreeShipping: true,
+    img: "../../../images/coat3.png",
   },
 
   {
@@ -41,6 +44,7 @@ export const productsData = [
     availableSizes: ["XL"],
     price: 25.9,
     isFreeShipping: true,
+    img: "../../../images/coat4.png",
   },
 
   {
@@ -49,9 +53,10 @@ export const productsData = [
     title: "Tso 3D Short Sleev T-Shirt",
     quantity: 1,
     description: "Tso 3D Short Sleev",
-    availableSizes: ["X", "L", "XL"],
+    availableSizes: ["X", " - ", "L", " - ", "XL"],
     price: 10.9,
     isFreeShipping: false,
+    img: "../../../images/coat5.png",
   },
   {
     id: 6,
@@ -59,9 +64,10 @@ export const productsData = [
     title: "Man Tie Dye Cinza Grey T-Shirt",
     quantity: 1,
     description: "Man Tie Dye Cinza Grey",
-    availableSizes: ["XL", "XXL"],
+    availableSizes: ["XL", " - ", "XXL"],
     price: 49.9,
     isFreeShipping: false,
+    img: "../../../images/coat6.png",
   },
 
   {
@@ -74,6 +80,7 @@ export const productsData = [
     style: "Preto com listras brancas",
     price: 22.5,
     isFreeShipping: true,
+    img: "../../../images/coat7.png",
   },
 
   {
@@ -86,17 +93,6 @@ export const productsData = [
     style: "Azul escuro",
     price: 18.7,
     isFreeShipping: false,
-  },
-
-  {
-    id: 9,
-    sku: 11600983276356165,
-    title: "Crazy Monkey Gray",
-    quantity: 1,
-    description: "",
-    availableSizes: ["S"],
-    style: "Preto com listras brancas",
-    price: 22.5,
-    isFreeShipping: true,
+    img: "../../../images/coat8.png",
   },
 ];

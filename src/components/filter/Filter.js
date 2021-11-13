@@ -36,8 +36,8 @@ const Filter = () => {
   return (
     <div className={styles.container}>
       <SearchBar filter={filter} />
-      <div>
-        order by size:
+      <div className={styles.flexText}>
+        <p className={styles.text}>order by size:</p>
         <Select
           value={filter}
           onChange={filterHandler}
@@ -45,8 +45,8 @@ const Filter = () => {
           className={styles.filterSelect}
         />
       </div>
-      <div>
-        sort by price:
+      <div className={styles.flexText}>
+        <p className={styles.text}>order by price:</p>
         <Select
           value={sort}
           onChange={sortHandler}

@@ -1,13 +1,8 @@
 .container {
-  width: 80%;
   padding: 10px;
-  margin: auto;
-  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
-  border: 1px solid #1e40af;
+  justify-content: space-around;
   background-color: rgb(248, 248, 248);
-  border-radius: 7px;
 }
 .filter {
   display: flex;
@@ -18,4 +13,7 @@
 }
 .filterSelect {
   width: 150px;
+}
+.flexText {
+  display: flex;
 }

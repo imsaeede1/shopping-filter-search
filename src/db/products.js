@@ -56,7 +56,7 @@ export const productsData = [
     availableSizes: ["X", " - ", "L", " - ", "XL"],
     price: 10.9,
     isFreeShipping: false,
-    img: "../../../images/coat5.png",
+    img: "../../../images/coat9.png",
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ export const productsData = [
     availableSizes: ["XL", " - ", "XXL"],
     price: 49.9,
     isFreeShipping: false,
-    img: "../../../images/coat6.png",
+    img: "../../../images/coat10.png",
   },
 
   {
@@ -80,7 +80,7 @@ export const productsData = [
     style: "Preto com listras brancas",
     price: 22.5,
     isFreeShipping: true,
-    img: "../../../images/coat7.png",
+    img: "../../../images/coat11.png",
   },
 
   {
@@ -93,6 +93,6 @@ export const productsData = [
     style: "Azul escuro",
     price: 18.7,
     isFreeShipping: false,
-    img: "../../../images/coat8.png",
+    img: "../../../images/coat12.png",
   },
 ];
